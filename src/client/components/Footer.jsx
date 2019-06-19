@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Photos() {
+export default function Footer() {
   return (
     <div>
-      <h1>This is Photos</h1>
+      <p>This is footer</p>
     </div>
   )
 }

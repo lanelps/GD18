@@ -4,17 +4,21 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: './src/client/index.js',
   output: {
-    path: path.join(__dirname, './public'),
+    path: __dirname + '/build/',
     filename: 'bundle.js'
   },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
@@ -25,5 +29,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/client/index.html'
     })
-  ]
+  ],
+  devServer: {
+    port: 3001
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "name": "react-tinderbox",
+  "version": "1.0.0",
+  "description": "Boilerplate create by me",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  }
+}

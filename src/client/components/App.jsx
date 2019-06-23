@@ -6,7 +6,6 @@ import About from './About'
 import Directions from './Directions'
 import Photos from './Photos'
 import Student from './Student'
-import '../assets/css/main.css'
 
 const App = () => {
   return (

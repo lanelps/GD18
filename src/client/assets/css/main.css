@@ -66,10 +66,6 @@ svg {
   fill: white;
 }
 
-img {
-  object-fit: cover;
-}
-
 h1,
 h2,
 h3,
@@ -79,6 +75,22 @@ h6 {
   font-family: prophetMedium, sans-serif;
   font-style: normal;
   text-transform: capitalize;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 12px;
 }
 
 p,
@@ -122,20 +134,31 @@ a {
 }
 
 .crest {
-  grid-column: 1;
-  grid-row: 2;
-  max-width: 100%;
+  position: absolute;
+  left: 4rem;
+  bottom: 0rem;
+  max-width: 95px;
+  max-height: 131px;
   cursor: pointer;
+}
+
+.crest > img {
+  width: 100%;
 }
 
 .crest-text {
   visibility: hidden;
-  grid-column: 2 / span 4;
-  grid-row: 2;
+  position: relative;
+  top: -121px;
+  font-size: 16px;
+  width: 394px;
+  left: 115px;
+  color: black;
+  line-height: 23px;
 }
 
 .crest:hover .crest-text {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .sponsors {

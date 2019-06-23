@@ -87,16 +87,15 @@ export default function Home() {
 
       <div className="crest">
         <img src="./src/client/assets/images/wcad.svg" />
-      </div>
-
-      <div className="crest-text">
-        <p>
-          Whitecliffe College of Arts & Design <wbr /> Te Whare Takiura o
-          Wikiriwhi
-        </p>
-        <p>
-          Graphic Design Department <wbr /> Tari o Hoahoa Whakairoiro
-        </p>
+        <div className="crest-text">
+          <h3>
+            Whitecliffe College of Arts & Design <br /> Te Whare Takiura o
+            Wikiriwhi
+          </h3>
+          <p>
+            Graphic Design Department <br /> Tari o Hoahoa Whakairoiro
+          </p>
+        </div>
       </div>
 
       <div className="sponsors">

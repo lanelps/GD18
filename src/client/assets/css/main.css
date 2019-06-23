@@ -1,0 +1,163 @@
+:root {
+  --main-cyan: #00a0e9;
+  --main-white: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: prophetMedium;
+  src: url('../fonts/prophetMedium.otf') format('otf'),
+    url('../fonts/prophetMedium.ttf') format('ttf'),
+    url('../fonts/prophetMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: prophetRegular;
+  src: url('../fonts/prophetRegular.otf') format('otf'),
+    url('../fonts/prophetRegular.ttf') format('ttf'),
+    url('../fonts/prophetRegular.woff') format('woff');
+}
+
+* {
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  color: var(--main-white);
+
+  background-color: var(--main-cyan);
+  overflow-x: hidden;
+}
+
+ul {
+  font-size: 16px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  fill: white;
+  display: inline-block;
+  outline: 0;
+}
+
+li {
+  border-bottom: 1px solid white;
+}
+
+li:hover {
+  background: white;
+  color: #00a0e9;
+}
+
+svg {
+  fill: white;
+}
+
+img {
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: prophetMedium, sans-serif;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+p,
+span,
+a {
+  font-family: prophetRegular, sans-serif;
+  font-style: normal;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr
+    2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+
+  padding: 40px;
+}
+
+.gd18 {
+  grid-column: 1 / span 2;
+}
+
+.map {
+  grid-column: 5 / span 4;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.cls {
+  fill: var(--main-cyan);
+  stroke: var(--main-white);
+  stroke-width: 30px;
+}
+
+.cls:hover {
+  fill: var(--main-white);
+}
+
+.crest {
+  grid-column: 1;
+  grid-row: 2;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.crest-text {
+  visibility: hidden;
+  grid-column: 2 / span 4;
+  grid-row: 2;
+}
+
+.crest:hover .crest-text {
+  visibility: hidden;
+}
+
+.sponsors {
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
+}
+
+.sponsors a {
+  display: block;
+}
+
+.blink {
+  width: 60px;
+}
+.blink > img {
+  width: 100%;
+}
+
+.epic {
+  width: 60px;
+}
+.epic > img {
+  width: 100%;
+}

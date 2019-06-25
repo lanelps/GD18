@@ -3,6 +3,9 @@ import React from 'react'
 import studentsData from '../../data/students-data.json'
 
 const Student = props => {
+  document.documentElement.style.setProperty('--main-bg', '#fff')
+  document.documentElement.style.setProperty('--main-color', '#00a0e9')
+
   const url = props.match.params.url
   const student = studentsData.filter(student => student.url === url)[0]
 

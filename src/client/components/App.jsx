@@ -8,15 +8,10 @@ import Photos from './Photos'
 import Student from './Student'
 
 const App = () => {
-  const bodyStyle = {
-    backgroundColor: 'var(--main-cyan);',
-    color: 'yellow'
-  }
-
   return (
     <React.Fragment>
       <Router>
-        <div className="wrapper" style={bodyStyle}>
+        <div className="wrapper">
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/directions" component={Directions} />

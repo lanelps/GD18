@@ -205,8 +205,8 @@ a {
 
 .crest {
   position: absolute;
-  left: 4rem;
-  bottom: 0rem;
+  left: 40px;
+  bottom: 0;
   max-width: 95px;
   max-height: 131px;
   cursor: pointer;

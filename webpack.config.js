@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|otf|ttf)$/,
-        use: ['url-loader?limit=100000']
+        use: ['url-loader?limit=1000000']
       },
       {
         test: /\.(eot|ttf)$/,

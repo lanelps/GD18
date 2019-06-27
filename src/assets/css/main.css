@@ -350,6 +350,8 @@ a {
 }
 .student-title * {
   font-size: 36px;
+  position: relative;
+  top: -26px;
 }
 
 .student-name {

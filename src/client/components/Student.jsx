@@ -62,7 +62,7 @@ const Student = props => {
         <GD18 />
         <div className="section-student">
           <div className="student-title">
-            <h1 className="student-name">{student.name}</h1>
+            <h2 className="student-name">{student.name}</h2>
             <p className="student-project">{student.project}</p>
             <p className="student-qulification">{student.qual}</p>
           </div>

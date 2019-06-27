@@ -35,7 +35,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/client/index.html'
+      template: './src/client/index.html',
+      favicon: './src/assets/images/wcad/favicon.png'
     })
   ],
   devServer: {

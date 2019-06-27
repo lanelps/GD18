@@ -21,10 +21,10 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,
+        test: /\.(png|jpg|jpeg|gif|svg|woff|otf|ttf)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'url-loader?limit=100000',
             options: {}
           }
         ]

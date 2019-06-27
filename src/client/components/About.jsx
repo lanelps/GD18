@@ -3,6 +3,9 @@ import React from 'react'
 import GD18 from './GD18Logo'
 import Footer from './Footer'
 
+import aboutOne from '../../assets/images/wcad/image_about_01.png'
+import aboutTwo from '../../assets/images/wcad/image_about_02.png'
+
 export default function About() {
   document.documentElement.style.setProperty('--main-bg', '#fff')
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
@@ -24,10 +27,7 @@ export default function About() {
             celebrate our graduating designers.
           </p>
           <div>
-            <img
-              src="./src/assets/images/wcad/image_about_01.png"
-              alt="Imgage of an InDesign document"
-            />
+            <img src={aboutOne} alt="Imgage of an InDesign document" />
           </div>
           <div>
             <a href="https://www.instagram.com/gd18exhibition/" target="blank">
@@ -41,10 +41,7 @@ export default function About() {
         </div>
 
         <div className="section-about-banner">
-          <img
-            src="./src/assets/images/wcad/image_about_02.png"
-            alt="about-banner"
-          />
+          <img src={aboutTwo} alt="about-banner" />
         </div>
 
         <div className="section-about-2">

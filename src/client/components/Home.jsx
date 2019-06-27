@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import gd18logo from '../../assets/images/wcad/GD18.svg'
+import crest from '../../assets/images/wcad/wcad.svg'
+import blink from '../../assets/images/wcad/blink.svg'
+import epic from '../../assets/images/wcad/epic.svg'
+
 export default function Home() {
   document.documentElement.style.setProperty('--main-bg', '#00a0e9')
   document.documentElement.style.setProperty('--main-color', '#fff')
@@ -48,7 +53,7 @@ export default function Home() {
       <div className="grid-auto">
         <div className="gd18">
           <a href="#">
-            <img src="./src/assets/images/wcad/GD18.svg" />
+            <img src={gd18logo} />
           </a>
         </div>
 
@@ -146,7 +151,7 @@ export default function Home() {
         </div>
 
         <div className="crest">
-          <img src="./src/assets/images/wcad/wcad.svg" />
+          <img src={crest} />
           <div className="crest-text">
             <h3>
               Whitecliffe College of Arts & Design <br /> Te Whare Takiura o
@@ -164,11 +169,11 @@ export default function Home() {
             href="https://www.instagram.com/blinkboys/?hl=en"
             target="blank"
           >
-            <img src="./src/assets/images/wcad/blink.svg" alt="Blink Boys" />
+            <img src={blink} alt="Blink Boys" />
           </a>
 
           <a className="epic" href="https://epicbeer.com/" target="blank">
-            <img src="./src/assets/images/wcad/epic.svg " alt="Epic Beer" />
+            <img src={epic} alt="Epic Beer" />
           </a>
         </div>
       </div>

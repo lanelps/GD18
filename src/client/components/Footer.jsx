@@ -1,9 +1,11 @@
 import React from 'react'
 
+import crest from '../../assets/images/wcad/wcad.svg'
+
 export default function Footer() {
   return (
     <div className="footer grid-auto">
-      <img src="./src/assets/images/wcad/wcad.svg" />
+      <img src={crest} />
 
       <div className="footer-div-1">
         <h3>

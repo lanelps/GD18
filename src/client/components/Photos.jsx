@@ -1,6 +1,7 @@
 import React from 'react'
 
-import photosData from '../../data/photos-data.json'
+// import photosData from '../../data/photos-data.json'
+import photosArr from '../../data/photos-data'
 
 import GD18 from './GD18Logo'
 import Footer from './Footer'
@@ -10,13 +11,21 @@ export default function Photos() {
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
   document.body.style.overflowY = 'scroll'
 
-  const photosImages = photosData[0].images.map(image => (
+  // const photosImages = photosData[0].images.map(image => (
+  //   <div
+  //     key={image}
+  //     className="photo"
+  //     style={{
+  //       backgroundImage: `url(./src/assets/images/exhibition/${image}.jpg)`
+  //     }}
+  //   />
+  // ))
+
+  const photosImages = photosArr.map(image => (
     <div
       key={image}
       className="photo"
-      style={{
-        backgroundImage: `url(./src/assets/images/exhibition/${image}.jpg)`
-      }}
+      style={{ backgroundImage: `url(${image})` }}
     />
   ))
 

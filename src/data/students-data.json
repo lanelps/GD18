@@ -4,220 +4,331 @@
     "url": "aniela-zulawink",
     "name": "Aniela Zulawink",
     "project": "The World Wide Web",
-    "statement": "",
+    "qual": "BFA(GDes) DipAudioE",
+    "statement": [
+      "In this film, I was particularly interested in the way today’s society interacts with digital technology and how it relates to current social contexts- especially in relation to the challenges that women face today. For example, there’s a huge impact of social media on mental health, especially in regards to growing feelings of isolation and distorted body image/ beauty ideals. Exploring this within the concept of a cyber web “utopian” dystopia was particularly intriguing to me.",
+      "The general concepts that I intended to investigate is how today’s society, especially women and their environment, is affected by technology and vice versa. In doing so, I also explored whether I could utilise digital mediums in a more positive and meaningful manner rather than a shallow aesthetic gimmick. I wanted to use digital media in a way where I could convey these themes of depersonalization, yet help society reconnect with themselves.",
+      "Ultimately, my aim was to get people to think critically about these concepts and experience these mediums in meaningful ways."
+    ],
     "contact": {
       "email": "aniela.zulawnik@gmail.com",
       "website": "anizulawnikdesign.com"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
   },
   {
     "id": "2",
     "url": "buntheun-oung",
     "name": "Buntheun Oung",
     "project": "Mission Statement",
-    "statement": "",
+    "qual": "BFA(GDes) FdCertAD",
+    "statement": [
+      "Pol Pot was the leader of the Khmer Rouge and applied Chinese communist ideologies to Cambodia with devastating effects. The Khmer Rouge targeted educated people, who were considered a threat to their regime, killing doctors, artists, musicians, scholars and monks in the process. Between 1975 and 1979, 3 million Cambodians are estimated to have been killed. The Khmer Rouge resulted in immediate loss of Cambodian knowledge, culture and customs, and the people of Cambodian sought refuge in other countries to flee the genocide. As a result, there are now Cambodian communities scattered across America, Australian, France, New Zealand and other parts of the world, still holding on to their culture.",
+      "Second-generation Cambodians in these communities have a second-hand knowledge of their culture through their parents and grandparents war stories.",
+      "Submitted stories are categorised according to three fields: date submitted, user’s location, user type (user, third person, anonymous). When the user enters a submission online, they are required to enter the current date, location, title of story, text, and optional photos with captions. For a guest user, they may find stories through the world map on the main page (with the ability to search stories by continent), user profiles, keywords in search bar, or use the archive page to search by date, location and submission (or a combination of the above).",
+      "The world map on the main page, with black squares scattered across representing a story serving as a visual component to the archival system. The user can explore stories submitted from that specific area of the world. ‘Scattered Offerings’ seeks to collect, preserve and archive the experiences of the Khmer Rouge. By submitting their stories, Cambodians can engage by contributing to the archival of stories online. To share these stories could act as therapy for some, providing a platform to reconnect with the scattered Cambodian community to heal old pain and bring closure to families. This is also a platform for younger generations that want to learn more about their own history and reconnect with their culture. With the website’s goal of trying to promote Cambodian culture and preserve knowledge for future generations, I hope that Cambodians can regain a sense of identity through this website before this history is forgotten."
+    ],
     "contact": {
-      "instagram": "buntheun"
+      "instagram": "buntheun",
+      "website": "buntheunoung.wordpress.com"
     },
-    "images": [""]
+    "images": ["1.png"]
   },
   {
     "id": "3",
     "url": "chelsea-moore",
     "name": "Chelsea Moore",
     "project": "Eventually",
-    "statement": "",
+    "qual": "BFA(GDes)",
+    "statement": [
+      "This publication looks into the ideas of nostalgia, memory and Alzheimer’s Disease. In reference to my Grandad, I have created a collection of works that reflect on the good old days and how eventually the memories all fade away."
+    ],
     "contact": {
       "email": "chelsea_moore_@hotmail.com",
       "instagram": "_chelseamoore"
     },
-    "images": [""]
+    "images": ["1.png"]
   },
   {
     "id": "4",
     "url": "chris-newman",
     "name": "Chris Newman",
     "project": "Creative Space Design Collab",
-    "statement": "",
+    "qual": "BFA(GDes) CertHort",
+    "statement": [
+      "Creative Space was designed with its own flexible identity system which allows users from each of the four departments to design their own promotional matter for the event. It features a large library of fun, stylized imagery which can be composed with the interchangeable 3D type. Bright, vibrant and modern, the identity reflects the creative designers of tomorrow.",
+      "With few restrictions in place, the flexible identity provides the opportunity for vast creative expression."
+    ],
     "contact": {
-      "facebook": {
-        "title": "noomz artist",
-        "link": "noomz.art"
-      },
+      "facebook": "noomz.art",
       "instagram": "chrisnoomz"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png"]
   },
   {
     "id": "5",
     "url": "damjan-brkic",
     "name": "Damjan Brkic",
-    "project": "SLIDE TO UNLOCK",
-    "statement": "",
+    "project": "Slide to Unlock",
+    "qual": "BFA(GDes)",
+    "statement": [
+      "A project based in augmented reality, I picked the subject to force me to learn how to code ad work in new technological mediums. In general, each image poster act like a target for that topic at hand, the first being distortion, on the topic of online sexuality distortion specifically. My intentions were to be negative on the topic, due to the fact that it is a pressing underbelly issue that a lot of young men face, the consequences being that they start viewing sexuality in a disconnected form. The female figures are essentially expressed as mannequins with exaggerated figures, almost comically large. I made these messages that require our attention buried in the back hidden by the sea of distraction."
+    ],
     "contact": {
-      "facebook": {
-        "title": "Damjan Brkic",
-        "link": "Damjan1Brkic"
-      },
-      "instagram": "damjanpayne"
+      "instagram": "damjanpayne",
+      "website": "att-ic.tumblr.com"
     },
-    "images": [""]
+    "images": ["1.png", "2.png"]
   },
   {
     "id": "6",
     "url": "jemma-smith",
     "name": "Jemma Smith",
-    "project": "SLIDE TO UNLOCK",
-    "statement": "",
+    "project": "Seditious Utterance",
+    "qual": "BFA(GDes)  FdCertAD",
+    "statement": [
+      "My area of interest explores topics regarding the social definition of masculinity within New Zealand, how it has developed over time and how it affects contemporary society. Theories suggest that hyper-masculine gender stereotype is exaggerated within New Zealand culture as a result of our pioneer heritage; further developed throughout the early 20th century through the idealisation of the New Zealand soldier. Today, these male stereotypes severely limit what is considered “ideal” and socially acceptable within New Zealand culture.",
+      "Having learnt that New Zealand’s social definition of masculinity has such a negative impact on our youth (specifically between the ages of 20-24), I began exploring ways in which I could communicate this information effectively towards this specific age group. I decided that designing a website was the ideal format for the targeted audience. This forced me to push myself out of my comfort zone, greatly challenging my knowledge of digital design and development from learning multiple types of code.",
+      "The title, Seditious Utterance was a term dissected from one of the newspaper clippings from the early 1990s that I was researching throughout this project. With seditious meaning an act of rebellion against established order and utterance being a remark or expression, it is an expression of my opinion of the effects that these gender stereotypes carry, such as the societal pressures to contain specific personal comments and statements of self expression."
+    ],
     "contact": {
       "email": "jemmasmithh@gmail.com"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png"]
   },
   {
     "id": "7",
     "url": "katie-paton",
     "name": "Katie Paton",
     "project": "Why Does Rap Hate Women?",
-    "statement": "",
+    "qual": "BFA(GDes)",
+    "statement": [
+      "This project began with my love for rap mixed with the guilt I felt for that love.The rap industry has a systematic problem with how it thinks of and treats women.",
+      "Me and many other listeners I’m sure, know the blatant misogyny exists in the lyrics and music videos. But it becomes easy to ignore because the music is so engrained into popular culture, we hear it to an extent where we are desensitised to the sexism. Why is it so easily accepted and/or dismissed by rappers, producers, labels and listeners? Is it because we’re just used to it? Or is it not worth questioning, or turning against, because at the end of the day, we like the music. Nobody wants to give up their favourite genre in an act of protest, even though our consumer dollar is supporting a toxic industry.",
+      "I also wanted to find out where the misogyny comes from, why it exists: a complicated question involving gender politics, institutionalised racism and classism, a culture of violence and warped views of what masculinity means. These findings can be used to attempt to understand:",
+      "The Numbers—why are there so little female rappers compared to male? And why are these few women never rewarded for their success?",
+      "The Videos—representation of women versus men.",
+      "The Lyrics—the vernacular that is rampant with misogyny and violence and origins."
+    ],
     "contact": {
       "instagram": "katiepatonn"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
   },
   {
     "id": "8",
     "url": "kay-tasma",
     "name": "Kay Tasma",
     "project": "Thank you for your contribution",
-    "statement": "",
+    "qual": "BFA(GDes) DINZ MISTD",
+    "statement": [
+      "This work is an extension of earlier experiments based around paper use and recycling. My interest is in investigating different ways to consider paper production in a more sustainable way. For this project I have presented discarded paper from the photocopiers at Whitecliffe within a reusable, recyclable, sustainable, speculative “paper” mass. My aim is not provide the solution, but more to suggest the future of paper within design to be evolving."
+    ],
     "contact": {
-      "email": "Kay.tasma@gmail.com",
+      "email": "kay.tasma@gmail.com",
       "instagram": "_no_kay"
     },
-    "images": [""]
+    "images": ["1.png", "2.png"]
   },
   {
     "id": "9",
     "url": "kayleigh-bartlett",
     "name": "Kayleigh Bartlett",
     "project": "Altered States",
-    "statement": "",
+    "qual": "BFA(GDes) MISTD",
+    "statement": [
+      "The intention of my Studio project was to create an informative and experimental research publication on the subject of “Altered States of Consciousness”.",
+      "My project is a curated a selection of academic readings and essays, internet articles and interviews that give context to three overarching types of Altered States: Psychoactive, Natural, and Mental.",
+      "My first section explores the way psychoactive drugs such as LSD alter the mind, the second section explores Altered States through natural methods such as practicing meditation or hypnosis and the final section explores the way mental illnesses such as psychosis or schizophrenia can alter perception and consciousness."
+    ],
     "contact": {
       "instagram": "kayleighbb"
     },
-    "images": [""]
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png",
+      "8.png",
+      "9.png",
+      "10.png",
+      "11.png"
+    ]
   },
   {
     "id": "10",
     "url": "lane-le-prevost-smith",
     "name": "Lane Le Prevost-Smith",
     "project": "Emergence",
-    "statement": "",
+    "qual": "BFA(GDes) CertWebDev CertDVA",
+    "statement": [
+      "Archival collection of digital work exploring emergent properties and behaviours, applied to the fundemental basics of graphic design.",
+      "In philosophy, systems theory, science, and art; emergence occurs when an entity is observed to have properties its parts do not have on their own. These properties or behaviors emerge only when the parts interact in a wider whole."
+    ],
     "contact": {
       "email": "lanelps@gmail.com",
       "instagram": "lane_lps",
-      "website": "lanelps.xyz"
+      "website": "lanelps.xyz",
+      "github": "lanelps"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png"]
   },
   {
     "id": "11",
     "url": "nikita-moshev",
     "name": "Nikita Moshev",
-    "project": "STEREOSCOPIC",
-    "statement": "",
+    "qual": "BFA(GDes) FdCertAD",
+    "project": "Stereoscopic",
+    "statement": [
+      "This project is an exploration of graphic design existing in virtual reality.",
+      "Can graphic design be translated into a virtual reality?",
+      "By bringing it into a new medium with infinite possibilities and outcomes, the result is an abstracted experience. "
+    ],
     "contact": {
       "email": "nikita.moshev@hotmail.com",
       "instagram": "vehsom",
       "website": "nikitamoshev.com"
     },
-    "images": [""]
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png",
+      "8.png"
+    ]
   },
   {
     "id": "12",
     "url": "robyn-te-whata",
     "name": "Robyn Te Whata",
     "project": "Chocolate Cookbook Poi e System & Mauri Toi",
-    "statement": "",
+    "qual": "BFA(GDes) DipCGD DipGC",
+    "statement": [
+      "My original system was the poi action to Poi E by Patea Māori Club. The actions are very complex in that there is no singular movement. With each Poi spin there is a foot work that aligns with it. It was challenging to show that connection as each Poi spin is different and each foot work is different. I needed to separate the movements and this made it difficult for me to show a connection between movements in a visual way. The original Recipe book worked perfectly to show a connection between the movements. The system I made for Poi E was applied to the Recipe book using character styles, shapes, lines, text colour and images. It became a playful yet very complex visual story that represents the form and cohesive system developed from Poi E.",
+      "Mauri Toi is a website providing resources and technical skills for Maori youth to pursue a career in Art or Graphic Design. My intention for this website is to create a space for young people suffering from depression and suicidal thoughts, to find ways of coping with it. By learning different art techniques, and exploring their creativity in a practical way, they might find some emotional stress relief as a result. The overall presentation is playful and dynamic using familiar iconography and simple navigation. The tutorials link to real tutorials, while the imagery in the Gallery and on the Homepage is mine unless stated otherwise. I made many forms of art and animation throughout the year that I have used in this website as member examples. I hope to make this site live and available for people to use in the near future."
+    ],
     "contact": {
       "email": "kapuamawhero@gmail.com",
-      "instagram": "pinkclouddesign"
+      "instagram": "pinkclouddesign",
+      "website": "pinkclouddesign.co.nz"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png"]
   },
   {
     "id": "13",
     "url": "sabah-saleem-rahmen",
     "name": "Sabah Saleem Rahmen",
     "project": "N.I.G.G.A",
-    "statement": "",
+    "qual": "BFA(GDes) DINZ",
+    "statement": [
+      "An exploration into how poets and civil right activists at the time of Segregation inspired current day rappers."
+    ],
     "contact": {
       "email": "sabahaisha16@gmail.com",
-      "instagram": "sabah_aisha"
+      "instagram": "sabahrahman_"
     },
-    "images": [""]
+    "images": ["1.png"]
   },
   {
     "id": "14",
     "url": "shizune-yamashita",
     "name": "Shizune Yamashita",
     "project": "Gender Free",
-    "statement": "",
+    "qual": "BFA(GDes)",
+    "statement": [
+      "Gender free is a fashion brand which targets all genders by re-configuring visual elements to create a new flexible identity. This breaks away from conventions of fixed branding."
+    ],
     "contact": {
       "email": "shizune.y@gmail.com",
       "instagram": "peara.whakarekareka"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png"]
   },
   {
     "id": "15",
     "url": "sophia-montgomery",
     "name": "Sophia Montgomery",
     "project": "Full Circle",
-    "statement": "",
+    "qual": "BFA(GDes)",
+    "statement": [
+      "Full Circle is an app created to help transition people into a more holistic way of living. With the recent influx of news surrounding our dyer plastic pollution problem and the impacts that animal agriculture does to our planet, people are wanting to make more ethically conscious decisions that don't encroach on their busy lives. Full Circle helps you implicate these changes at a pace tapered to your lifestyle and where you stand with your environmental goals."
+    ],
     "contact": {
       "email": "so.montgomery@hotmail.com"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png", "4.png"]
   },
   {
     "id": "16",
     "url": "sydney-plested",
     "name": "Sydney Plested",
     "project": "It's Not your Data",
-    "statement": "",
+    "qual": "BFA(GDes) MISTD",
+    "statement": [
+      "A video series intended to alert social media users to the dangers connected to the Facebook platform, Facebook users need to be aware that they forfeit their right to privacy when signing up to the platform.",
+      "The video series takes a strong anti-Facebook stance, it explores the value of our personal data and the negligence of Facebook, concerning the protection of our data.",
+      "In a world where Facebook is intrinsically interwoven into our everyday lives we can longer ignore the lack of protection of our data, nor can we ignore the failures of Facebook.",
+      "Stay informed.Protect your data."
+    ],
     "contact": {
       "email": "sydney.plested@hotmail.com",
-      "instagram": "sydneyplested",
-      "website": "sydneyplested.cargocollective.com"
+      "instagram": "skellythreads",
+      "website": "sydneyplested.cargo.site"
     },
-    "images": [""]
+    "images": [
+      "its-not-your-data.jpg",
+      "its-not-your-data_2.jpg",
+      "its-not-your-data_3.jpg",
+      "poster-mockup.jpg",
+      "Portfolio_5-frames_18.jpg"
+    ],
+    "iframe": {
+      "url": "https://www.youtube-nocookie.com/embed/9blQ8aOVFQI?autoplay=1&controls=0&loop=1&playlist=9blQ8aOVFQI&amp;showinfo=0",
+      "width": "100%",
+      "height": "426px"
+    }
   },
   {
     "id": "17",
     "url": "vicktoria-johnson",
     "name": "Vicktoria Johnson",
-    "project": "The Te Reo Maori Project",
-    "statement": "",
+    "project": "The Te Reo Māori Project",
+    "qual": "BFA(GDes)",
+    "statement": [
+      "My publication aims to bring awareness to the Te Reo Māori claim of 1986. It shares the history of the language, how important the language is to the people, the injustices Maori have faced in regards to their culture and how this is connected to Te Tiriti o Waitang (Treaty of Waitangi). I think this issue is still current & unresolved for Māori.",
+      "My outcomes are a publication & cards, the publication holds the different experiments i did to reflect the Te Reo Māori Claim. The cards are a way of sharing aspects of the claim with more people. My pepeha poster is about identity.",
+      "This aspect of my project portrays how the language is important to Māori identity. The pepeha enables a strong sense of belonging which is important to our well being. The aspects of the pepeha reflect how in depth and spiritual the Māori perspective is. When these values aren’t taught and are unknown, people fail to see how important they are. The poster aims to educate people of the pepeha and how it’s speaker would say their pepeha. By seeing the poster everyday, this would help the audience to remember their pepeha.",
+      "My project sits alongside the movement to revitalise Te Reo Māori in Aotearoa New Zealand. I’ve used Western design theory with Māori concepts. I think part of the issue is the lack of awareness in regards to the importance of the language, Māori values and the Māori perspective on Te Tiriti o Waitang. My project aims to brings awareness to all these things."
+    ],
     "contact": {
       "email": "vjoh94@gmail.com",
       "instagram": "torios174"
     },
-    "images": [""]
+    "images": ["1.png", "2.png", "3.png"]
   },
   {
     "id": "18",
     "url": "wayne-shih",
-    "name": "Wayne Shih",
+    "name": "Wayne C Y Shih",
     "project": "New Zealand Mapping Service",
-    "statement": "",
+    "qual": "BFA(GDes) DINZ MNZCartS",
+    "statement": [
+      "In 1935 driven by the war and fear of invasion, the Department of Lands and Surveys (now, Land Information New Zealand Toitū Te Whenua) began planning for a national inch-to-mile topographical map series of Aotearoa New Zealand; the NZMS 1 series 1:63360.",
+      "The first sheet published was Napier, completed in 1939. During the 1940s, 160 provisional sheets were published, this was before any uniform standards or specifications were agreed upon, and was known to be the first national cartography program. NZMS 1 series ended in 1987 with its last two limited revision maps of Stuart and Heath.",
+      "The typeface I designed is based on the NZMS 1 letterings and the research book includes various design element analysis and historical findings."
+    ],
     "contact": {
-      "email": "w.shih@outlook.com",
+      "email": "wayne.shih@whicadmail.ac.nz",
       "instagram": "wayneshih.tk",
-      "website": "wayneshih.tk"
+      "website": "wayneshih.tk",
+      "github": "wayne-shih"
     },
-    "images": [""]
+    "images": ["1.png", "NZMS_Anim_F.svg"]
   }
 ]

@@ -4,19 +4,53 @@ import { Link } from 'react-router-dom'
 import studentsData from '../../data/students-data.json'
 
 export default function Home() {
-  const studentList = studentsData.map(student => (
-    <li key={student.id}>
-      <Link to={`/student/${student.url}`}>{student.name}</Link>
-    </li>
-  ))
   document.documentElement.style.setProperty('--main-bg', '#00a0e9')
   document.documentElement.style.setProperty('--main-color', '#fff')
+  document.body.style.overflowY = 'hidden'
+
+  const showDirections = () => {
+    document.querySelector('.page-directions').style.visibility = 'visible'
+    console.log('Directions')
+  }
+
+  const showAbout = () => {
+    document.querySelector('.page-about').style.visibility = 'visible'
+    console.log('About')
+  }
+
+  const showWorks = () => {
+    document.querySelector('.page-works').style.visibility = 'visible'
+    console.log('Works')
+  }
+
+  const showPhotos = () => {
+    document.querySelector('.page-photos').style.visibility = 'visible'
+    console.log('Photos')
+  }
+
+  const showFacebook = () => {
+    document.querySelector('.page-facebook').style.visibility = 'visible'
+    console.log('Facbook')
+  }
+
+  const showInstagram = () => {
+    document.querySelector('.page-instagram').style.visibility = 'visible'
+    console.log('Instagram')
+  }
+
+  const hide = () => {
+    document.querySelectorAll('.page-titles h1').forEach(function(item) {
+      item.style.visibility = 'hidden'
+    })
+    console.log('Hide')
+  }
+
   return (
     <React.Fragment>
       <div className="grid-auto">
         <div className="gd18">
           <a href="#">
-            <img src="./src/client/assets/images/GD18.svg" />
+            <img src="./src/client/assets/images/wcad/GD18.svg" />
           </a>
         </div>
 
@@ -26,21 +60,29 @@ export default function Home() {
             <g id="Layer_14" data-name="Layer 14">
               <Link to="/about">
                 <polygon
-                  className="cls"
+                  className="cls map-about"
+                  onMouseEnter={showAbout}
+                  onMouseLeave={hide}
                   points="19.06 19.06 19.06 691.94 277.83 691.94 277.83 277.83 691.94 277.83 691.94 19.06 19.06 19.06"
                 />
               </Link>
             </g>
             <g id="Layer_15" data-name="Layer 15">
-              <polygon
-                className="cls"
-                points="277.83 691.94 277.83 484.88 484.88 484.88 484.88 277.83 691.94 277.83 691.94 691.94 277.83 691.94"
-              />
+              <Link to="/works">
+                <polygon
+                  className="cls map-works"
+                  onMouseEnter={showWorks}
+                  onMouseLeave={hide}
+                  points="277.83 691.94 277.83 484.88 484.88 484.88 484.88 277.83 691.94 277.83 691.94 691.94 277.83 691.94"
+                />
+              </Link>
             </g>
             <g id="Layer_16" data-name="Layer 16">
               <Link to="/directions">
                 <rect
-                  className="cls"
+                  className="cls map-directions"
+                  onMouseEnter={showDirections}
+                  onMouseLeave={hide}
                   x="277.83"
                   y="277.83"
                   width="207.06"
@@ -54,7 +96,9 @@ export default function Home() {
                 target="blank"
               >
                 <rect
-                  className="cls"
+                  className="cls map-facebook"
+                  onMouseEnter={showFacebook}
+                  onMouseLeave={hide}
                   x="19.06"
                   y="691.94"
                   width="258.76"
@@ -68,7 +112,9 @@ export default function Home() {
                 target="blank"
               >
                 <rect
-                  className="cls"
+                  className="cls map-instagram"
+                  onMouseEnter={showInstagram}
+                  onMouseLeave={hide}
                   x="19.06"
                   y="897.5"
                   width="258.76"
@@ -79,7 +125,9 @@ export default function Home() {
             <g id="Layer_19" data-name="Layer 19">
               <Link to="/photos">
                 <rect
-                  className="cls"
+                  className="cls map-photos"
+                  onMouseEnter={showPhotos}
+                  onMouseLeave={hide}
                   x="277.83"
                   y="691.94"
                   width="414.11"
@@ -88,10 +136,19 @@ export default function Home() {
               </Link>
             </g>
           </svg>
+
+          <div className="page-titles">
+            <h1 className="page-about">About</h1>
+            <h1 className="page-directions">Directions</h1>
+            <h1 className="page-facebook">Facebook</h1>
+            <h1 className="page-instagram">Instagram</h1>
+            <h1 className="page-works">Works</h1>
+            <h1 className="page-photos">Photos</h1>
+          </div>
         </div>
 
         <div className="crest">
-          <img src="./src/client/assets/images/wcad.svg" />
+          <img src="./src/client/assets/images/wcad/wcad.svg" />
           <div className="crest-text">
             <h3>
               Whitecliffe College of Arts & Design <br /> Te Whare Takiura o
@@ -109,11 +166,17 @@ export default function Home() {
             href="https://www.instagram.com/blinkboys/?hl=en"
             target="blank"
           >
-            <img src="./src/client/assets/images/blink.svg" alt="Blink Boys" />
+            <img
+              src="./src/client/assets/images/wcad/blink.svg"
+              alt="Blink Boys"
+            />
           </a>
 
           <a className="epic" href="https://epicbeer.com/" target="blank">
-            <img src="./src/client/assets/images/epic.svg " alt="Epic Beer" />
+            <img
+              src="./src/client/assets/images/wcad/epic.svg "
+              alt="Epic Beer"
+            />
           </a>
         </div>
       </div>

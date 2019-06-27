@@ -6,6 +6,7 @@ import Footer from './Footer'
 export default function About() {
   document.documentElement.style.setProperty('--main-bg', '#fff')
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
+  document.body.style.overflowY = 'scroll'
   return (
     <React.Fragment>
       <div className="about grid-auto">
@@ -20,11 +21,11 @@ export default function About() {
             space makes visible the invisible elements integral to the structure
             of an InDesign document. GD18 is a showcase of projects varying in
             media as well as lines of enquiry, come along to support and
-            celebrate our graduating designsers.
+            celebrate our graduating designers.
           </p>
           <div>
             <img
-              src="./src/client/assets/images/image_about_01.png"
+              src="./src/client/assets/images/wcad/image_about_01.png"
               alt="Imgage of an InDesign document"
             />
           </div>
@@ -41,7 +42,7 @@ export default function About() {
 
         <div className="section-about-banner">
           <img
-            src="./src/client/assets/images/image_about_02.png"
+            src="./src/client/assets/images/wcad/image_about_02.png"
             alt="about-banner"
           />
         </div>
@@ -57,8 +58,15 @@ export default function About() {
           </p>
           <div>
             <h2>
-              <a href="/">enquiries@whitecliffe.ac.nz</a>
-              <a href="/">whitecliffe.ac.nz/programmes/graphic-design</a>
+              <a href="mailto:enquiries@whitecliffe.ac.nz">
+                enquiries@whitecliffe.ac.nz
+              </a>
+              <a
+                href="https://whitecliffe.ac.nz/programmes/graphic-design"
+                target="blank"
+              >
+                whitecliffe.ac.nz/programmes/graphic-design
+              </a>
             </h2>
           </div>
         </div>

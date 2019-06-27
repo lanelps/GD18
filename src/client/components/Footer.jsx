@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className="footer grid-auto">
-      <img src="./src/client/assets/images/wcad.svg" />
+      <img src="./src/client/assets/images/wcad/wcad.svg" />
 
       <div className="footer-div-1">
         <h3>
@@ -21,9 +21,9 @@ export default function Footer() {
           Tari o Hoahoa Whakairoiro
         </h3>
         <p>
-          <a href="/">+64 9 309 5970 </a>
+          <a href="tel:+6493095970">+64 9 309 5970 </a>
           <br />
-          <a href="/">gd18@whitecliffe.ac.nz</a>
+          <a href="mailto:gd18@whitecliffe.ac.nz">gd18@whitecliffe.ac.nz</a>
         </p>
         <div>
           <p>

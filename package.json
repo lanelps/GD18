@@ -2,7 +2,8 @@
   "name": "GD18",
   "version": "1.0.0",
   "description": "GD18",
-  "main": "index.js",
+  "main": "build/index.js",
+  "homepage": "https://lanelps.github.io/GD18/",
   "scripts": {
     "start": "webpack-dev-server --hot",
     "build": "webpack --mode production",

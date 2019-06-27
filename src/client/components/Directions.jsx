@@ -8,6 +8,7 @@ import Iframe from 'react-iframe'
 export default function Directions() {
   document.documentElement.style.setProperty('--main-bg', '#fff')
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
+  document.body.style.overflowY = 'scroll'
   return (
     <React.Fragment>
       <div className="directions grid-auto">
@@ -33,6 +34,18 @@ export default function Directions() {
             width="100%"
             height="426px"
           />
+        </div>
+        <div>
+          <p>
+            Transport Options <br />
+            Parking is limited so we would recommend you Uber/Taxi to the event
+            if possible.
+          </p>
+          <p>
+            There are two parking buildings within a 4min walk of DEMO Space and
+            the Mount Eden train station is a 10min walk. There are also many
+            options for public transport.
+          </p>
         </div>
       </div>
       <Footer />

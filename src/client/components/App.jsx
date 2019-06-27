@@ -6,6 +6,7 @@ import About from './About'
 import Directions from './Directions'
 import Photos from './Photos'
 import Student from './Student'
+import Works from './Works'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Router>
         <div className="wrapper">
           <Route exact path="/" component={Home} />
+          <Route exact path="/works" component={Works} />
           <Route exact path="/about" component={About} />
           <Route exact path="/directions" component={Directions} />
           <Route exact path="/photos" component={Photos} />

@@ -16,7 +16,7 @@ const Student = props => {
   const studentImage = student.images.map(image => (
     <img
       key={image}
-      src={image ? require(`../assets/images/${student.url}/${image}`) : ''}
+      src={image ? require(`../../assets/images/${student.url}/${image}`) : ''}
     />
   ))
 

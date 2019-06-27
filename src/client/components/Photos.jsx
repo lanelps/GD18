@@ -15,7 +15,7 @@ export default function Photos() {
       key={image}
       className="photo"
       style={{
-        backgroundImage: `url(./src/client/assets/images/exhibition/${image}.jpg)`
+        backgroundImage: `url(./src/assets/images/exhibition/${image}.jpg)`
       }}
     />
   ))

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className="footer grid-auto">
-      <img src="./src/client/assets/images/wcad/wcad.svg" />
+      <img src="./src/assets/images/wcad/wcad.svg" />
 
       <div className="footer-div-1">
         <h3>

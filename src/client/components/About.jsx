@@ -25,7 +25,7 @@ export default function About() {
           </p>
           <div>
             <img
-              src="./src/client/assets/images/wcad/image_about_01.png"
+              src="./src/assets/images/wcad/image_about_01.png"
               alt="Imgage of an InDesign document"
             />
           </div>
@@ -42,7 +42,7 @@ export default function About() {
 
         <div className="section-about-banner">
           <img
-            src="./src/client/assets/images/wcad/image_about_02.png"
+            src="./src/assets/images/wcad/image_about_02.png"
             alt="about-banner"
           />
         </div>

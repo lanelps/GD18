@@ -125,6 +125,16 @@ a {
   z-index: 10;
 }
 
+.gd18-home {
+  position: relative;
+  grid-column: 1 / span 2;
+  /* top: 40px;
+  left: 40px; */
+  max-width: 210px;
+  max-height: 65px;
+  z-index: 10;
+}
+
 .gd18 img {
   max-width: 100%;
 }

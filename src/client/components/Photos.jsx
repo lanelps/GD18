@@ -11,11 +11,10 @@ export default function Photos() {
   document.body.style.overflowY = 'scroll'
 
   const photosImages = photosArr.map(image => (
-    <div
-      key={image}
-      className="photo"
-      style={{ backgroundImage: `url(${image})` }}
-    />
+    <div key={image} className="photos-images">
+      <div />
+      <img className="photo" src={image} alt="Exhibition Photo" />
+    </div>
   ))
 
   return (

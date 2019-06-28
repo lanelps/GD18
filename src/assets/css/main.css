@@ -404,24 +404,34 @@ a {
 
 .section-photos {
   grid-column: 4 / span 6;
+  width: 100%;
 }
 
-.section-photos > * {
+.section-photos > *,
+.photos-images {
   margin-bottom: 40px;
 }
 
-.photos-image {
+.photos-images {
   position: relative;
 }
 
-.section-photos .photo {
+.photos-images > div {
+  position: absolute;
   width: 100%;
-  height: 426px;
-  background-size: cover;
-  background-blend-mode: multiply;
+  height: 100%;
+  mix-blend-mode: overlay;
 }
-.section-photos .photo:hover {
-  background-color: rgba(26, 161, 230, 1);
+
+.photos-images > div:hover {
+  background-color: #007db3;
+}
+
+.photos-images .photo {
+  width: 100%;
+  min-height: 100px;
+  max-height: 426px;
+  object-fit: contain;
 }
 
 /* Works */
@@ -446,6 +456,15 @@ a {
     grid-row-gap: 2rem;
   }
 
+  .directions,
+  .section-student,
+  .section-about-1,
+  .works-section,
+  .map,
+  .photos {
+    margin-top: 105px;
+  }
+
   /* Footer */
   .footer-div-1 {
     grid-column: 1 / span 4;
@@ -462,7 +481,6 @@ a {
 
   .map {
     grid-column: 1 / span 4;
-    margin-top: 105px;
   }
 
   .page-titles {
@@ -504,7 +522,6 @@ a {
 
   /* About */
   .section-about-1 {
-    margin-top: 105px;
     width: 100%;
     grid-column: 1 / span 4;
   }
@@ -523,12 +540,41 @@ a {
 
   /* Student */
   .section-student {
-    margin-top: 105px;
     width: 100%;
     grid-column: 1 / span 4;
   }
 
   .student-image img {
     min-height: 0px;
+  }
+
+  /* Works */
+  .works-section {
+    width: 100%;
+    grid-column: 1 / span 4;
+  }
+
+  /* Directions */
+  .directions > * {
+    grid-column: 1 / span 4;
+  }
+
+  .opening {
+    grid-column: 1 / span 4;
+  }
+
+  .demo-gallery {
+    grid-column: 1 / span 4;
+  }
+
+  /* Photos */
+  .section-photos {
+    grid-column: 1 / span 4;
+  }
+
+  .section-photos .photo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 39%;
   }
 }

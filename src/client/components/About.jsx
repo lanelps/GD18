@@ -16,7 +16,7 @@ export default function About() {
         <GD18 />
 
         <div className="section-about-1">
-          <h1>About</h1>
+          <h1 id="about-title">About</h1>
           <p>
             GD18 is a graduate exhibition of Graphic Design students from
             Whitecliffe College of Arts and Design. The exhibition takes

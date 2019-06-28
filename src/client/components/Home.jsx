@@ -50,7 +50,7 @@ export default function Home() {
 
   return (
     <React.Fragment>
-      <div className="grid-auto">
+      <div className="home grid-auto">
         <div className="gd18">
           <a href="#">
             <img src={gd18logo} />
@@ -147,6 +147,34 @@ export default function Home() {
             <h1 className="page-instagram">Instagram</h1>
             <h1 className="page-works">Works</h1>
             <h1 className="page-photos">Photos</h1>
+          </div>
+        </div>
+
+        <div className="mobile-menu-home grid-auto">
+          <Link to="/about">
+            <h1 className="page-about">About</h1>
+          </Link>
+          <Link to="/directions">
+            <h1 className="page-directions">Directions</h1>
+          </Link>
+          <Link to="/works">
+            <h1 className="page-works">Works</h1>
+          </Link>
+          <Link to="/photos">
+            <h1 className="page-photos">Photos</h1>
+          </Link>
+          <a
+            href="https://www.facebook.com/events/329106797669601/"
+            target="blank"
+          >
+            <h1 className="page-facebook">Facebook</h1>
+          </a>
+          <a href="https://www.instagram.com/gd18exhibition/" target="blank">
+            <h1 className="page-instagram">Instagram</h1>
+          </a>
+
+          <div className="crest-mobile">
+            <img src={crest} />
           </div>
         </div>
 

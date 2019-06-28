@@ -456,6 +456,48 @@ a {
     grid-row-gap: 2rem;
   }
 
+  h1 {
+    font-size: 24pt;
+    text-transform: capitalize;
+    position: relative;
+    top: -13px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 16pt;
+  }
+
+  h3 {
+    font-size: 12pt;
+  }
+
+  h4 {
+    font-size: 12pt;
+  }
+
+  .title {
+    min-height: 36pt;
+  }
+
+  p,
+  span,
+  a {
+    font-size: 16pt;
+    font-family: prophetRegular, sans-serif;
+    font-style: normal;
+    color: var(--main-black);
+    margin: 0;
+  }
+
+  .footer {
+    z-index: 100;
+  }
+
+  .footer * {
+    font-size: 12pt;
+  }
+
   .directions,
   .section-student,
   .section-about-1,
@@ -463,6 +505,11 @@ a {
   .map,
   .photos {
     margin-top: 105px;
+  }
+
+  .gd18 {
+    mix-blend-mode: multiply;
+    z-index: 10;
   }
 
   /* Footer */
@@ -474,7 +521,14 @@ a {
   .footer-div-2 {
     grid-column: 1 / span 4;
     grid-row: 2;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
+  }
+
+  .footer img {
+    position: relative;
+    width: 95px;
+    bottom: 0;
+    left: 0;
   }
 
   /* Home */

@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <div className="home grid-auto">
-        <div className="gd18">
+        <div className="gd18-home">
           <a href="#">
             <img src={gd18logo} />
           </a>

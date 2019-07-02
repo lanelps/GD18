@@ -7,6 +7,7 @@ import aboutOne from '../../assets/images/wcad/image_about_01.png'
 import aboutTwo from '../../assets/images/wcad/image_about_02.png'
 
 export default function About() {
+  window.scrollTo(0, 0)
   document.documentElement.style.setProperty('--main-bg', '#fff')
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
   document.body.style.overflowY = 'scroll'

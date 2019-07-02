@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Iframe from 'react-iframe'
 
 export default function Directions() {
+  window.scrollTo(0, 0)
   document.documentElement.style.setProperty('--main-bg', '#fff')
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
   document.body.style.overflowY = 'scroll'

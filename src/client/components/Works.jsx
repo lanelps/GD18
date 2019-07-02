@@ -7,6 +7,7 @@ import GD18 from './GD18Logo'
 import Footer from './Footer'
 
 export default function Works() {
+  window.scrollTo(0, 0)
   document.documentElement.style.setProperty('--main-bg', '#fff')
   document.documentElement.style.setProperty('--main-color', '#00a0e9')
   document.body.style.overflowY = 'scroll'

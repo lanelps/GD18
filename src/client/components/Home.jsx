@@ -7,6 +7,7 @@ import blink from '../../assets/images/wcad/blink.svg'
 import epic from '../../assets/images/wcad/epic.svg'
 
 export default function Home() {
+  window.scrollTo(0, 0)
   document.documentElement.style.setProperty('--main-bg', '#00a0e9')
   document.documentElement.style.setProperty('--main-color', '#fff')
   document.body.style.overflowY = 'hidden'

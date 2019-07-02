@@ -711,6 +711,19 @@ a {
     font-size: 12pt;
   }
 
+  .cls:hover {
+    fill: none;
+  }
+
+  .photos-images > div:hover {
+    background-color: transparent;
+  }
+
+  .works-section ul li a:hover,
+  .works-section ul li a:hover {
+    color: black;
+  }
+
   .directions,
   .section-student,
   .section-about-1,

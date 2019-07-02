@@ -54,17 +54,23 @@ export default function About() {
             highly sought after by the industry
           </p>
           <div>
-            <h2>
-              <a href="mailto:enquiries@whitecliffe.ac.nz">
-                enquiries@whitecliffe.ac.nz
-              </a>
-              <a
-                href="https://whitecliffe.ac.nz/programmes/graphic-design"
-                target="blank"
-              >
-                whitecliffe.ac.nz/programmes/graphic-design
-              </a>
-            </h2>
+            <a href="mailto:enquiries@whitecliffe.ac.nz">
+              <h2>
+                enquiries@
+                <wbr />
+                whitecliffe.ac.nz
+              </h2>
+            </a>
+            <a
+              href="https://whitecliffe.ac.nz/programmes/graphic-design"
+              target="blank"
+            >
+              <h2>
+                whitecliffe.ac.nz
+                <wbr />
+                /programmes/graphic-design
+              </h2>
+            </a>
           </div>
         </div>
       </div>
